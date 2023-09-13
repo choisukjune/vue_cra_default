@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vue_cra
+  name: vue.cra
   labels:
-    app: vue_cra
+    app: vue.cra
 spec:
   selector:
     matchLabels:
-      app: vue_cra
+      app: vue.cra
   template:
     metadata:
       labels:
-        app: vue_cra
+        app: vue.cra
     spec:
       containers:
-        - name: vue_cra
+        - name: vue.cra
           # 여러분의 image 주소를 입력해주세요.
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_40ca647d755d

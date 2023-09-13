@@ -6,14 +6,14 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
   labels:
     app.kubernetes.io/managed-by: kargocd
-  name: vue_cra
+  name: vue.cra
   namespace: default
 spec:
   rules:
     - http:
         paths:
           - backend:
-              serviceName: vue_cra
+              serviceName: vue.cra
               servicePort: 3000
             # 여러분의 app path 를 넣어주세요.
             path: /k9d70442166a1a(/|$)(.*)
