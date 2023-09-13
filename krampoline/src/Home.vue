@@ -14,5 +14,5 @@ export default {
 </script>
 <template>
   <h1>Home - VUE - CRA</h1>
-  <h3>Current Date & Time: {{currentDateTime()}}</h3>
+  <h3>Current Date & Time: {{setTimeout(function(){currentDateTime();},1000)}</h3>
 </template>
