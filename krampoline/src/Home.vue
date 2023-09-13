@@ -19,5 +19,5 @@ export default {
 </script>
 <template>
   <h1>Home - VUE - CRA</h1>
-  <h3>Current Date & Time: {{setTimeoutDateTime())}</h3>
+  <h3>Current Date & Time: {{setTimeoutDateTime()}}</h3>
 </template>
