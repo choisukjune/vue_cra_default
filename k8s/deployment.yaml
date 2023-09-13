@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: krampoline
+  name: vue_cra
   labels:
-    app: krampoline
+    app: vue_cra
 spec:
   selector:
     matchLabels:
-      app: krampoline
+      app: vue_cra
   template:
     metadata:
       labels:
-        app: krampoline
+        app: vue_cra
     spec:
       containers:
-        - name: krampoline
+        - name: vue_cra
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_044879d33d1d
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_40ca647d755d
