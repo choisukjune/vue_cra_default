@@ -5,5 +5,5 @@ console.log(process.env.VUE_APP_A)
 module.exports = defineConfig({
   transpileDependencies: true,
   publicPath : `/${process.env.VUE_APP_A}/`,
-  outputDir: `./dist/`,
+  outputDir: `./dist/${process.env.VUE_APP_A}/`,
 })
